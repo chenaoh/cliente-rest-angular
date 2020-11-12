@@ -95,8 +95,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-            ]
+            "scripts": []
           }
         },
         "lint": {
@@ -123,8 +122,13 @@
               "devServerTarget": "cliente-rest:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "cliente-rest"
 }
